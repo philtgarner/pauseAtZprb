@@ -106,7 +106,7 @@ with open(filename, "w") as f:
 
 						
 				#Comment to say what we're doing
-				f.write(";PAUSING PRINT");
+				f.write(";PAUSING PRINT\n");
 				#Move the head away
 				f.write("G1 X%f Y%f F9000\n" % (parkX, parkY))
 
